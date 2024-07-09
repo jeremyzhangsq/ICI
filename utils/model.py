@@ -148,7 +148,7 @@ def ICN_model(args, g, seeds, q=0.9):
     return all_spread, step_spread, active_prob
 
 
-def ICR_model(args, g, seeds, beta=0.9, gamma=0.6):
+def ICI_model(args, g, seeds, beta=0.9, gamma=0.6):
     num_of_simulations = args.repeat
     expose_spreads = {}
     step_expose_spread = np.zeros((num_of_simulations,args.step+1), dtype = int)  # spread in each step and overall spread
