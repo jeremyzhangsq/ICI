@@ -29,7 +29,7 @@ python benchmark.py --model ici --dataset digg --output 1 --repeat 1000 --step 1
 * Input arguments
 
   - datasets: `--dataset={"digg","twitter"}`
-  - support models: `--model={"ic", "icm", "icn", "icr", "lt", "ftm", "ltc"}`
+  - support models: `--model={"ic", "icm", "icn", "ici", "lt", "ftm", "ltc"}`
   - output mode: print all results by `--output 1`
   
 ### Citation
