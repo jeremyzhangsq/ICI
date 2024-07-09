@@ -32,3 +32,16 @@ python benchmark.py --model ici --dataset digg --output 1 --repeat 1000 --step 1
   - support models: `--model={"ic", "icm", "icn", "icr", "lt", "ftm", "ltc"}`
   - output mode: print all results by `--output 1`
   
+### Citation
+Please kindly cite our work if you find our paper or codes helpful.
+``` 
+@inproceedings{zhang2024information,
+  title={Information Diffusion Meets Invitation Mechanism},
+  author={Zhang, Shiqi and Sun, Jiachen and Lin, Wenqing and Xiao, Xiaokui and Huang, Yiqian and Tang, Bo},
+  booktitle={Companion Proceedings of the ACM on Web Conference 2024},
+  pages={383--392},
+  year={2024}
+}
+```
+
+ 
