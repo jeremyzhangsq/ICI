@@ -55,8 +55,8 @@ if __name__ == '__main__':
         all_spread, step_spread, active_prob = ICM_model(args, g, seeds)
     elif args.model == 'icn': # input data p=1/d, default param q=0.9
         all_spread, step_spread, active_prob = ICN_model(args, g, seeds)
-    elif args.model == 'icr': # input data p=1/d, default param beta=0.9, gamma=0.6
-        all_spread, step_spread, active_prob = ICR_model(args, g, seeds,beta=args.beta,gamma=args.gamma)
+    elif args.model == 'ici': # input data p=1/d, default param beta=0.9, gamma=0.6
+        all_spread, step_spread, active_prob = ICI_model(args, g, seeds,beta=args.beta,gamma=args.gamma)
     elif args.model == 'lt': # input data p=1/d
         all_spread, step_spread, active_prob = LT_model(args, g, seeds)
     elif args.model == 'ftm': # input data p=1/d
